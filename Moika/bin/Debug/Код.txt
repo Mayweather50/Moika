@@ -1,0 +1,125 @@
+ public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        int j;
+
+      
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+
+            Thread.Sleep(5000);
+            stopWatch.Stop();
+
+
+            if (j == 0)
+            {
+                j += 1;
+            }
+           
+
+            j -= 1;
+
+
+           
+            label1.Text = j.ToString();
+          
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+
+            j += 10;
+
+     
+            label1.Text = j.ToString();
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+
+            timer1.Enabled = true;
+        }
+
+        private void Foam_Click(object sender, EventArgs e)
+        {
+
+           
+
+
+            timer2.Enabled = true;
+        }
+
+        private void Wax_Click(object sender, EventArgs e)
+        {
+            timer3.Enabled = true;
+        }
+
+        private void Stop_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            timer2.Enabled = false;
+            timer3.Enabled = false;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
+
+
+            Stopwatch stopWatch2 = new Stopwatch();
+            stopWatch2.Start();
+            Thread.Sleep(3000);
+            stopWatch2.Stop();
+
+
+
+            if (j == 0)
+            {
+                j += 1;
+            }
+
+            j -= 1;
+
+
+
+            label1.Text = j.ToString();
+        }
+
+      
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+
+
+
+            Stopwatch stopWatch3 = new Stopwatch();
+            stopWatch3.Start();
+            Thread.Sleep(2000);
+            stopWatch3.Stop();
+
+
+            if (j == 0)
+            {
+                j += 1;
+            }
+
+            j -= 1;
+
+
+
+            label1.Text = j.ToString();
+        }
+
+      
+    }

@@ -1,0 +1,11 @@
+C:\Users\myrta\source\repos\Moika\Moika\bin\Debug\Moika.exe.config
+C:\Users\myrta\source\repos\Moika\Moika\bin\Debug\Moika.exe
+C:\Users\myrta\source\repos\Moika\Moika\bin\Debug\Moika.pdb
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.csprojAssemblyReference.cache
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.Form1.resources
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.Properties.Resources.resources
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.csproj.GenerateResource.cache
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.csproj.CoreCompileInputs.cache
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.exe
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.pdb
+C:\Users\myrta\source\repos\Moika\Moika\obj\Debug\Moika.CheckPrint.resources
